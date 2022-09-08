@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- adding favicon -->
+    <link rel="icon" type="image/x-icon" href="../img/site-icon.ico" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- slick css cdn -->
+    <link 
+      rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" 
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" 
+      crossorigin="anonymous" 
+      referrerpolicy="no-referrer" 
+    />
+    <link 
+      rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" 
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" 
+      crossorigin="anonymous" 
+      referrerpolicy="no-referrer" 
+    />
+    <!-- importing font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- embedding external custom CSS -->
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <!-- importing jquery cdn -->
+    <script 
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" 
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" 
+      crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+    <title>Portfolio Website &mdash; Projects</title>
+  </head>
+  <body>
+    <div id="overall_wrapper" class="flex">
+      <!-- back to top button -->
+      <span id="btt"><i class="fa-solid fa-arrow-up-long"></i></span>
+      <!-- header -->
+      <header>
+        <!-- site nav -->
+        <nav class="site_nav flex max_width">
+          <!-- site logo -->
+          <a href="../index.html" class="logo"></a>
+          <input type="checkbox" id="checkbox" />
+          <label for="checkbox">
+            <span class="line one"></span>
+            <span class="line two"></span>
+            <span class="line three"></span>
+          </label>
+          <ul class="menu flex">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="" class="active">Projects</a></li>
+            <li><a href="../index.html#services">Services</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- main content -->
+      <main>
+        <section id="project_main">
+          <ul id="project_main_list">
+            <li class="light">
+              <div class="max_width">
+                <h2>1. Kraftado Website</h2>
+                <p class="project_desc">
+                  A very simple and underdeveloped website made with pure HTML, CSS, and JavaScript.</br>
+                  Site link:
+                  <a 
+                  href="https://johnpmandawe.github.io/kraftado/" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  class="desc_link">here.</a></br> 
+                  Source code:
+                  <a 
+                    href="https://github.com/johnpmandawe/kraftado" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="desc_link"
+                    >here.</a>
+                </p>
+                <div class="slider">
+                  <img src="../img/kraftado/1.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/kraftado/2.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/kraftado/3.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/kraftado/4.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/kraftado/5.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/kraftado/6.PNG" class="project_main_img" alt=""/>
+                </div>
+              </div>
+            </li>
+            <li class="dark">
+              <div class="max_width">
+                <h2>2. Snake Game in Python &mdash; OOP</h2>
+                <p class="project_desc">
+                  An old python game I made out from a youtube tutorial. 
+                  The key difference is that,  I converted it to OOP.</br>
+                  Tutorial:  
+                  <a 
+                    href="https://youtu.be/BP7KMlbvtOo" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="desc_link">here.</a>
+                </p>
+                <div class="slider">
+                  <img src="../img/snake-game/1.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/snake-game/2.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/snake-game/3.PNG" class="project_main_img" alt=""/>
+                </div>
+              </div>
+            </li>
+            <li class="light">
+              <div class="max_width">
+                <h2>3. Chat App in PHP</h2>
+                <p class="project_desc">
+                  Also a simple chat application made out from a youtube tutorial converted from MySQLI to PDO.</br>
+                  Tutorial: 
+                  <a 
+                    href="https://youtu.be/VnvzxGWiK54" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="desc_link">here.</a>
+                </p>
+                <div class="slider">
+                  <img src="../img/chat-app/1.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/chat-app/2.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/chat-app/3.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/chat-app/4.PNG" class="project_main_img" alt=""/>
+                </div>
+              </div>
+            </li>
+            <li class="dark">
+              <div class="max_width">
+                <h2>4. To-Do List App in PHP</h2>
+                <p class="project_desc">
+                  This is one of the tasks I made back when I was an intern at 
+                  <a 
+                    href="http://growforwardjp.com" 
+                    target="_blank" rel="noopener noreferrer" 
+                    class="desc_link">Grow Forward JP.</a> 
+                  I made this using HTML, CSS, JavaScript (Jquery) and PHP (PDO) as backend. </br>
+                  Source code: 
+                  <a 
+                    href="https://github.com/johnpmandawe/to-do-list-app-php" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    class="desc_link">here.</a>
+                </p>
+                <div class="slider">
+                  <img src="../img/tdl-app/1.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/tdl-app/2.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/tdl-app/3.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/tdl-app/4.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/tdl-app/5.PNG" class="project_main_img" alt=""/>
+                </div>
+              </div>
+            </li>
+            <li class="light">
+              <div class="max_width">
+                <h2>5. Clothing Shop App in PHP</h2>
+                <p class="project_desc">
+                  This is my first e-commerce web application for a client. 
+                  It took me about 3 weeks to finish due to complex backend logic and 
+                  database queries, mail functions and online payment integrations.</br>
+                  Source code: 
+                  <a 
+                    href="https://github.com/johnpmandawe/shop-app" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="desc_link">here.</a>
+                </p>
+                <div class="slider">
+                  <img src="../img/shop-app/1.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/shop-app/2.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/shop-app/3.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/shop-app/4.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/shop-app/5.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/shop-app/6.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/shop-app/7.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/shop-app/8.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/shop-app/9.PNG" class="project_main_img" alt=""/>
+                </div>
+              </div>
+            </li>
+            <li class="dark">
+              <div class="max_width">
+                <h2>6. Social Networking App in PHP</h2>
+                <p class="project_desc">
+                  Lastly, my latest web app which is more like of a facebook application written in PHP. 
+                  You can create, edit and delete posts. It also has a 'time ago' feature that allow users to 
+                  track their actions from the moment they did it up to the present time. You can also send, accept 
+                  and delete friend requests from other users. You can edit your profile. 
+                  You can also receive and delete notifications and many more.</br>
+                  Source code: 
+                  <a 
+                    href="https://github.com/johnpmandawe/shop-app" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="desc_link">here.</a>
+                </p>
+                <div class="slider">
+                  <img src="../img/social-network-app/1.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/social-network-app/2.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/social-network-app/3.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/social-network-app/4.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/social-network-app/5.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/social-network-app/6.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/social-network-app/7.PNG" class="project_main_img" alt=""/>
+                  <img src="../img/social-network-app/8.PNG" class="project_main_img" alt=""/>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+      <!-- footer -->
+      <footer>
+        <div class="max_width flex" id="footer">
+          <div class="footer_child footer_left_wrapper">
+            <p id="footer_nav_link_title">Quick Links:</p>
+            <ul id="footer_nav_links">
+              <li><a href="../index.html" class="active">Home</a></li>
+              <li><a href="../index.html#about">About</a></li>
+              <li><a href="">Projects</a></li>
+              <li><a href="../index.html#services">Services</a></li>
+              <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer_child footer_center_wrapper">
+            <img src="../img/site-logo.png" class="footer_logo" alt="" />
+            <p id="copyright">Copyright &copy; 2022 DEVS, Inc.</br>Powered by GitHub.</p>
+          </div>
+          <div class="footer_child footer_right_wrapper flex">
+            <a href="http://github.com/johnpmandawe" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+            <a href="http://www.facebook.com/johnpaul.mandawe.92/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
+            <a href="tel:+639569946511"><i class="fa-solid fa-phone-volume"></i></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- embedding external custom JavaScript -->
+    <script 
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" 
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" 
+      crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+    <script src="../js/projects.js"></script>
+  </body>
+</html>

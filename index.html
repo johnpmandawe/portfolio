@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- adding favicon -->
+    <link rel="icon" type="image/x-icon" href="img/site-icon.ico" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- importing font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- embedding external custom CSS -->
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Portfolio Website &mdash; Home</title>
+  </head>
+  <body>
+    <!-- main container -->
+    <div id="overall_wrapper" class="flex">
+      <!-- back to top -->
+      <span id="btt"><i class="fa-solid fa-arrow-up-long"></i></span>
+      <!-- site header -->
+      <header>
+        <!-- site nav -->
+        <nav class="site_nav flex max_width">
+          <!-- site logo -->
+          <a href="" class="logo"></a>
+          <input type="checkbox" id="checkbox" />
+          <label for="checkbox">
+            <span class="line one"></span>
+            <span class="line two"></span>
+            <span class="line three"></span>
+          </label>
+          <ul class="menu flex">
+            <li><a href="" class="home">Home</a></li>
+            <li><a href="#about" class="about">About</a></li>
+            <li><a href="pages/projects.html" class="projects">Projects</a></li>
+            <li><a href="#services" class="services">Services</a></li>
+            <li><a href="#contact" class="contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- main content -->
+      <main>
+        <section class="main_sections flex light" id="home">
+          <p id="home_text">My Website Portfolio</p>
+        </section>
+        <section class="main_sections dark" id="about">
+          <div class="max_width">
+            <h2>about</h2>
+            <p>
+              Hi there! I am Jaypee, the author of this site. I would like to
+              thank you for taking a peek on my simple project. Devs is a simple
+              portfolio website developed to serve as a main storage of all my
+              past projects up to the present. This will also serve as a visual
+              representation of all the things I've learned since the day I
+              started coding. Albeit it's simple, the details were thoroughly
+              analyzed such as FONT PAIRING, COLOR SCHEMES, LAYOUT and
+              RESPONSIVENESS. This is still underdevelopment and will soon be
+              migrated through a framework called REACT JS.
+            </p>
+          </div>
+        </section>
+        <section class="main_sections light" id="projects">
+          <div class="max_width">
+            <h2>projects</h2>
+            <ul class="project_list">
+              <li>
+                <a href="pages/projects.html" class="project_link max_width">
+                  <p class="project_name">
+                    1. Kraftado Website
+                  </p>
+                  <div class="project_img_wrapper max_width">
+                    <img src="img/kraftado/1.PNG" alt="" class="project_img max_width" />
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="pages/projects.html" class="project_link max_width">
+                  <p class="project_name">2. Snake Game in Python &mdash; OOP</p>
+                  <div class="project_img_wrapper max_width">
+                    <img src="img/snake-game/1.PNG" alt="" class="project_img max_width" />
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="pages/projects.html" class="project_link max_width">
+                  <p class="project_name">3. Chat App in PHP</p>
+                  <div class="project_img_wrapper max_width">
+                    <img src="img/chat-app/1.PNG" alt="" class="project_img max_width" />
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="pages/projects.html" class="project_link max_width">
+                  <p class="project_name">4. To-Do List App in PHP</p>
+                  <div class="project_img_wrapper max_width">
+                    <img src="img/tdl-app/1.PNG" alt="" class="project_img max_width" />
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="pages/projects.html" class="project_link max_width">
+                  <p class="project_name">5. Clothing Shop App in PHP</p>
+                  <div class="project_img_wrapper max_width">
+                    <img src="img/shop-app/1.PNG" alt="" class="project_img max_width" />
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="pages/projects.html" class="project_link max_width">
+                  <p class="project_name">6. Social Networking App in PHP</p>
+                  <div class="project_img_wrapper max_width">
+                    <img
+                      src="img/social-network-app/1.PNG"
+                      alt=""
+                      class="project_img max_width"
+                    />
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="main_sections dark" id="services">
+          <div class="max_width">
+            <h2>services</h2>
+            <div class="services_wrapper flex">
+              <div class="service">
+                <p class="service_name">Website Development</p>
+                <p class="service_desc">
+                  I offer affordable website development to those who want simple
+                  websites for their business, organization etc.<br />
+                  Technologies to be used:
+                </p>
+                <ul class="tech_list">
+                  <li>HTML &mdash; (Hypertext Markup Language)</li>
+                  <li>CSS &mdash; (Cascading Stylesheets)</li>
+                  <li>JavaScript</li>
+                </ul>
+              </div>
+              <div class="service">
+                <p class="service_name">Web App Development</p>
+                <p class="service_desc">
+                  Simple web apps are now becoming a trend and with that, I offer
+                  very affordable web app development to all of you! The best part
+                  is, documentations will be free of charge so contact me now!<br />
+                  Technologies to be used:
+                </p>
+                <ul class="tech_list">
+                  <li>HTML &mdash; (Hypertext Markup Language)</li>
+                  <li>CSS &mdash; (Cascading Stylesheets)</li>
+                  <li>JavaScript</li>
+                  <li>PHP &mdash; (Hypertext Preprocessor)</li>
+                </ul>
+              </div>
+              <div class="service">
+                <p class="service_name">Application Debugging</p>
+                <p class="service_desc">
+                  This may sound new to you but I am offering this service because
+                  I know that we all face bugs when coding and I am here to
+                  address your concerns when it comes to spotting and fixing it.
+                  <br />
+                  Languages:
+                </p>
+                <ul class="tech_list">
+                  <li>Python</li>
+                  <li>C#</li>
+                  <li>JavaScript</li>
+                  <li>PHP &mdash; (Hypertext Preprocessor)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="main_sections light" id="contact">
+          <div class="max_width">
+            <h2>contact</h2>
+            <div class="icon_text_wrapper flex">
+              <i class="fa-brands fa-facebook icon pr"></i
+              ><a
+                href="https://www.facebook.com/johnpaul.mandawe.92"
+                target="_blank"
+                class="text"
+                >John Paul Mandawe</a
+              >
+            </div>
+            <div class="icon_text_wrapper flex">
+              <i class="fa-brands fa-facebook-messenger icon"></i
+              ><a
+                href="https://m.me/johnpaul.mandawe.92/"
+                target="_blank"
+                class="text"
+                >John Paul Mandawe</a
+              >
+            </div>
+            <div class="icon_text_wrapper flex">
+              <i class="fa-solid fa-envelope icon"></i
+              ><span class="text">johnpmandawe@gmail.com</span>
+            </div>
+            <div class="icon_text_wrapper flex">
+              <i class="fa-solid fa-comment-sms icon"></i>
+              <a href="sms:+63569946511" class="text">+639569946511</a>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- footer -->
+      <footer>
+        <div class="max_width flex" id="footer">
+          <div class="footer_child footer_left_wrapper">
+            <p id="footer_nav_link_title">Quick Links:</p>
+            <ul id="footer_nav_links">
+              <li><a href="" class="active">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="pages/projects.html">Projects</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer_child footer_center_wrapper">
+            <img src="img/site-logo.png" class="footer_logo" alt="" />
+            <p id="copyright">Copyright &copy; 2022 DEVS, Inc.</br>Powered by GitHub.</p>
+          </div>
+          <div class="footer_child footer_right_wrapper flex">
+            <a href="http://github.com/johnpmandawe" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+            <a href="http://www.facebook.com/johnpaul.mandawe.92/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
+            <a href="tel:+639569946511"><i class="fa-solid fa-phone-volume"></i></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- embedding external custom JavaScript -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
