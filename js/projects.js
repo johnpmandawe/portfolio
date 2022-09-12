@@ -22,6 +22,14 @@ window.addEventListener('pageshow', () => {
           slidesToShow: 1,
         },
       },
+      {
+        breakpoint: 360,
+        settings: {
+          centerMode: true,
+          centerPadding: '0px',
+          slidesToShow: 1,
+        },
+      },
     ],
   });
   // scroll to top if btt button is clicked
